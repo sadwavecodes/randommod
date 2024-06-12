@@ -1,9 +1,23 @@
 {
-	"geode": "2.0.0-beta.27",
-	"gd": "2.204",
-	"version": "v1.0.0",
+	"geode": "3.0.0-alpha.2",
+	"gd": {
+      "win": "2.206"
+},
+	"version": "v1.0.1",
 	"id": "sadwave.mod_random",
 	"name": "Random Moderator",
 	"developer": "sadwave",
-	"description": "Cool funny random moderator"
+	"description": "Cool funny random moderator",
+	"resources": {
+        "sprites": [
+            "modlistbutton.png"
+        ]
+    },
+	"dependencies": [
+        {
+            "id": "geode.node-ids",
+            "version": ">=1.12.0-beta.1",
+            "importance": "required"
+        }
+    ]
 }
